@@ -1,0 +1,102 @@
+# =============================================================
+# .gitignore for CSE443/CE471 Project 2
+# Python + Jupyter Notebook + TensorFlow/Keras + Windows
+# =============================================================
+
+# -------------------------
+# Large Dataset Files
+# -------------------------
+# The dataset is ~200 MB and should NOT be committed.
+# Download from: https://data.mendeley.com/datasets/m6vv9k9gcd/5
+*.csv
+
+# -------------------------
+# Jupyter Notebook Artifacts
+# -------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# -------------------------
+# Python Cache
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# -------------------------
+# Distribution / Packaging
+# -------------------------
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# -------------------------
+# Trained Model Files (Large Binary Files)
+# -------------------------
+# Uncomment below if you do NOT want to track model files.
+# These are ~2-5 MB each, which is acceptable for GitHub.
+# models/*.keras
+
+# -------------------------
+# Temporary / System Files
+# -------------------------
+*.tmp
+~WRL*.tmp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# -------------------------
+# Logs & Debug Output
+# -------------------------
+*.log
+logs/
+optuna_journal.log*
+
+# -------------------------
+# Environment Files
+# -------------------------
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# -------------------------
+# Helper/Temp Scripts
+# -------------------------
+extract_imports.py
+pdf_content.txt
+notebooks_analysis.txt
+
+# -------------------------
+# Optuna Storage
+# -------------------------
+optuna.db
+*.db
