@@ -391,8 +391,8 @@ To verify correctness:
 
 | Student Number | Name |
 |---|---|
-| 221805025 | *(Student 1 — see report)* |
-| 211803011 | *(Student 2 — see report)* |
+| 221805025 | Aylin İrem Acar |
+| 211803011 | Dilan Şefika Şener |
 
 ---
 
